@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Express Group Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/cars_cats_styles.css">
+  </head>
+  <body>
+    <div class="WRAPPER">
+      <div class="header">
+        <div class="navbar">
+          <h1>Assignment: Cars and Cats and Express, OH My!</h1>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Enter new car information</h2>
+        <form class="form-group" action="/forms" method="post">
+          Modle: <input type="text" name="name" value="">
+          Year: <input type="text" name="email" value="">
+          Color: <input type="text" name="address" value="">
+          <!-- <button class="btn btn-primary" type="button" name="button">Submit</button> -->
+          <input class="btn btn-primary" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
